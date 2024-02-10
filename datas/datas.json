@@ -1,8 +1,8 @@
 {
     "version": 1.2,
-    "bot_token": "OTIzNTc4Mzk1MTMxMDE1MTkw.GHC-LY.q9FY-oKE3L0J0Gghb0NZJp-EAzGyOMjZKdYpeE",
+    "bot_token": "token",
     "split": " ",
-    "master_signal": "庭達羅斯-獵犬出發！",
+    "master_signal": "signal",
     "master_id": [
         620153018163396628
     ],
