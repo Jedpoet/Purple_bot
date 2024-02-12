@@ -263,14 +263,11 @@ async def help(message, sents):
         {} 新禁字1 新禁字2 
         {} 解除的禁字1 解除的禁字2
         {} 觸發詞（有包含就行） 回答1 回答2
-        {} 籤1 籤2 籤3 (抽籤
-        {} 要翻譯成中文的句子（日翻中目前有問題
-        {} 要翻譯成日文的句子
-        {} 要翻譯成英文的句子
+        {} 籤1 籤2 籤3 (抽籤）
         {} 察看目前有的指令
         ```
         '''.format(datas["learn_command"], datas["forget_command"], datas["ban_command"], datas["lift_ban_command"], datas["find_command"],
-                   datas["draw_command"], datas["trans_to_ch"], datas["trans_to_ja"], datas["trans_to_en"], datas["help_command"])
+                   datas["draw_command"], datas["help_command"])
     )
 
 
