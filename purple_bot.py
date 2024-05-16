@@ -210,7 +210,7 @@ async def draw(message, sents):
     await message.channel.send(datas["draw_word"].format(random.choice(sents[1:len(sents)-1])))
     
 # 紀念拉比
-async def memory(message):
+async def memory(message, sents):
     today = dt.date.today()
     that_date = dt.datetime(2021, 5, 15).date()
     days = (today - that_date).days
