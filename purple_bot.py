@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import time
 import keep_alive
 import os
-
+inport datetime as dt
 
 client = discord.Client()
 
@@ -208,6 +208,13 @@ async def find(message, sents):
 
 async def draw(message, sents):
     await message.channel.send(datas["draw_word"].format(random.choice(sents[1:len(sents)-1])))
+    
+# 紀念拉比
+async def memory(message):
+    today = dt.date.today()
+    that_date = dt.datetime(2021, 5, 15).date()
+    days = (today - that_date).days
+    await message.channel.send("拉比已經回深淵{}天了，祝她在深淵過的開心".format(days))
 
 # 查詢句子
 
@@ -385,6 +392,7 @@ funcs = {
     datas["lift_ban_command"]: lift_ban_word,
     datas["find_command"]: find,
     datas["draw_command"]: draw,
+    datas["memory_command"]: memory,
     datas["search_command"]: search,
     datas["help_command"]: help,
     datas["set_announce_channel"]: set_announce_channel,
