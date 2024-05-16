@@ -36,6 +36,7 @@
     "lift_ban_command": "p乖",
     "find_command": "p找",
     "draw_command": "抽獎",
+    "memory_command": "紀念拉比",
     "search_command": "p查",
     "help_command": "p指令",
     "set_announce_channel": "設定通知頻道",
