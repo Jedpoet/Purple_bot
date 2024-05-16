@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import time
 import keep_alive
 import os
-inport datetime as dt
+import datetime as dt
 
 client = discord.Client()
 
